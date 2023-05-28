@@ -1,5 +1,3 @@
-%%writefile youtube2.py
-
 import streamlit as st
 from pytube import YouTube
 from io import BytesIO
