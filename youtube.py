@@ -17,7 +17,4 @@ link = st.text_input("Enter the link of the video")
 # choose the path on your computer
 path = st.text_input("Enter the path of the video")
 
-if st.button("Download"):
-    Download(link, path)
-
-# Path: youtube.py
+st.download_button ("Download", Download(link, path)
