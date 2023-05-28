@@ -17,4 +17,4 @@ link = st.text_input("Enter the link of the video")
 # choose the path on your computer
 path = st.text_input("Enter the path of the video")
 
-st.download_button ("Download", Download(link, path)
+st.download_button ("Download", Download(link, path))
